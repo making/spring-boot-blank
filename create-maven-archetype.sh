@@ -8,6 +8,7 @@ pushd tmp
 
 sed -i -e "s/am\.ik\.archetype/xxxxxx.yyyyyy.zzzzzz/g" pom.xml
 sed -i -e "s/spring-boot-blank/projectName/g" pom.xml
+sed -i -e "s/github\.com\/making\/projectName/github.com\/making\/spring-boot-blank/g" pom.xml
 
 mvn archetype:create-from-project
 
