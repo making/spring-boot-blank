@@ -41,6 +41,17 @@
         </developer><!-- DELETE THIS LINE -->
     </developers><!-- DELETE THIS LINE -->
 
+    <distributionManagement><!-- DELETE THIS LINE -->
+        <snapshotRepository><!-- DELETE THIS LINE -->
+            <id>ossrh</id><!-- DELETE THIS LINE -->
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url><!-- DELETE THIS LINE -->
+        </snapshotRepository><!-- DELETE THIS LINE -->
+        <repository><!-- DELETE THIS LINE -->
+            <id>ossrh</id><!-- DELETE THIS LINE -->
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url><!-- DELETE THIS LINE -->
+        </repository><!-- DELETE THIS LINE -->
+    </distributionManagement><!-- DELETE THIS LINE -->
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <start-class>xxxxxx.yyyyyy.zzzzzz.App</start-class>
