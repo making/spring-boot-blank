@@ -16,7 +16,6 @@
         <version>1.1.7.RELEASE</version>
         <relativePath/>
     </parent>
-
     <licenses><!-- DELETE THIS LINE -->
         <license><!-- DELETE THIS LINE -->
             <name>Apache License, Version 2.0</name><!-- DELETE THIS LINE -->
@@ -31,7 +30,6 @@
     </scm><!-- DELETE THIS LINE -->
     <url>https://github.com/making/spring-boot-blank</url><!-- DELETE THIS LINE -->
     <description>Blank Project for Spring Boot</description><!-- DELETE THIS LINE -->
-
     <developers><!-- DELETE THIS LINE -->
         <developer><!-- DELETE THIS LINE -->
             <id>making</id><!-- DELETE THIS LINE -->
@@ -40,7 +38,6 @@
             <url>https://twitter.com/making</url><!-- DELETE THIS LINE -->
         </developer><!-- DELETE THIS LINE -->
     </developers><!-- DELETE THIS LINE -->
-
     <distributionManagement><!-- DELETE THIS LINE -->
         <snapshotRepository><!-- DELETE THIS LINE -->
             <id>ossrh</id><!-- DELETE THIS LINE -->
