@@ -7,6 +7,7 @@ Supports
 * Jetty
 * HikariCP
 * log4jdbc-log4j2
+* Lombok
 * REST Assured (for E2E test)
 
 ## How to use
