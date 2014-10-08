@@ -2,6 +2,13 @@
 
 Maven archetype to create a pre-configured maven project for Spring Boot Application
 
+Supports
+
+* Jetty
+* HikariCP
+* log4jdbc-log4j2
+* REST Assured (for E2E test)
+
 ## How to use
 
 with Bash
