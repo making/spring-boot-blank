@@ -10,6 +10,8 @@ Supports
 * Lombok
 * REST Assured (for E2E test)
 
+[![Build Status](https://travis-ci.org/making/spring-boot-blank.svg)](https://travis-ci.org/making/spring-boot-blank)
+
 ## How to use
 
 with Bash
