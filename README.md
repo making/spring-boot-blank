@@ -19,14 +19,14 @@ with Bash
     mvn archetype:generate\
      -DarchetypeGroupId=am.ik.archetype\
      -DarchetypeArtifactId=spring-boot-blank-archetype\
-     -DarchetypeVersion=0.9.2
+     -DarchetypeVersion=0.10.0
 
 with CommandPrompt (Windows)
 
     mvn archetype:generate^
      -DarchetypeGroupId=am.ik.archetype^
      -DarchetypeArtifactId=spring-boot-blank-archetype^
-     -DarchetypeVersion=0.9.2
+     -DarchetypeVersion=0.10.0
 
 ### Example
 
@@ -34,7 +34,7 @@ with CommandPrompt (Windows)
 $ mvn archetype:generate -B\
 >  -DarchetypeGroupId=am.ik.archetype\
 >  -DarchetypeArtifactId=spring-boot-blank-archetype\
->  -DarchetypeVersion=0.9.2\
+>  -DarchetypeVersion=0.10.0\
 >  -DgroupId=com.example\
 >  -DartifactId=hajiboot\
 >  -Dversion=1.0.0-SNAPSHOT
@@ -52,12 +52,12 @@ $ mvn archetype:generate -B\
 [INFO] Generating project in Batch mode
 [WARNING] Archetype not found in any catalog. Falling back to central repository (http://repo1.maven.org/maven2).
 [WARNING] Use -DarchetypeRepository=<your repository> if archetype's repository is elsewhere.
-Downloading: http://repo1.maven.org/maven2/am/ik/archetype/spring-boot-blank-archetype/0.9.2/spring-boot-blank-archetype-0.9.2.jar
-Downloaded: http://repo1.maven.org/maven2/am/ik/archetype/spring-boot-blank-archetype/0.9.2/spring-boot-blank-archetype-0.9.2.jar (6 KB at 7.5 KB/sec)
-Downloading: http://repo1.maven.org/maven2/am/ik/archetype/spring-boot-blank-archetype/0.9.2/spring-boot-blank-archetype-0.9.2.pom
-Downloaded: http://repo1.maven.org/maven2/am/ik/archetype/spring-boot-blank-archetype/0.9.2/spring-boot-blank-archetype-0.9.2.pom (3 KB at 3.8 KB/sec)
+Downloading: http://repo1.maven.org/maven2/am/ik/archetype/spring-boot-blank-archetype/0.10.0/spring-boot-blank-archetype-0.10.0.jar
+Downloaded: http://repo1.maven.org/maven2/am/ik/archetype/spring-boot-blank-archetype/0.10.0/spring-boot-blank-archetype-0.10.0.jar (6 KB at 7.5 KB/sec)
+Downloading: http://repo1.maven.org/maven2/am/ik/archetype/spring-boot-blank-archetype/0.10.0/spring-boot-blank-archetype-0.10.0.pom
+Downloaded: http://repo1.maven.org/maven2/am/ik/archetype/spring-boot-blank-archetype/0.10.0/spring-boot-blank-archetype-0.10.0.pom (3 KB at 3.8 KB/sec)
 [INFO] ----------------------------------------------------------------------------
-[INFO] Using following parameters for creating project from Archetype: spring-boot-blank-archetype:0.9.2
+[INFO] Using following parameters for creating project from Archetype: spring-boot-blank-archetype:0.10.0
 [INFO] ----------------------------------------------------------------------------
 [INFO] Parameter: groupId, Value: com.example
 [INFO] Parameter: artifactId, Value: hajiboot
