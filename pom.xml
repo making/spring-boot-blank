@@ -5,7 +5,7 @@
 
     <groupId>am.ik.archetype</groupId>
     <artifactId>spring-boot-blank</artifactId>
-    <version>0.9.3-SNAPSHOT</version>
+    <version>0.10.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Spring Boot Blank Project (from https://github.com/making/spring-boot-blank)</name>
@@ -13,7 +13,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.1.8.RELEASE</version>
+        <version>1.2.0.M2</version>
         <relativePath/>
     </parent>
     <licenses><!-- DELETE THIS LINE -->
@@ -53,8 +53,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <start-class>xxxxxx.yyyyyy.zzzzzz.App</start-class>
         <java.version>1.8</java.version>
-        <jetty.version>9.2.3.v20140905</jetty.version>
-        <servlet-api.version>3.1.0</servlet-api.version>
         <lombok.version>1.14.8</lombok.version>
         <log4jdbc.log4j2.version>1.16</log4jdbc.log4j2.version>
         <rest.assured.version>2.3.3</rest.assured.version>
@@ -117,7 +115,26 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
+    <repositories>
+        <repository>
+            <id>spring-milestones</id>
+            <name>Spring Milestones</name>
+            <url>http://repo.spring.io/milestone</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>spring-milestones</id>
+            <name>Spring Milestones</name>
+            <url>http://repo.spring.io/milestone</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
     <build>
         <plugins>
             <plugin>
