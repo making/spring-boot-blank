@@ -16,7 +16,7 @@ public class AppConfig {
     @Autowired
     DataSourceProperties dataSourceProperties;
 
-    @Bean
+    @Bean(destroyMethod = "close")
     @ConfigurationProperties(prefix = DataSourceProperties.PREFIX)
     DataSource realDataSource() {
         DataSource dataSource = DataSourceBuilder
