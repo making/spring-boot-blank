@@ -5,7 +5,7 @@
 
     <groupId>am.ik.archetype</groupId>
     <artifactId>spring-boot-blank</artifactId>
-    <version>1.0.6-SNAPSHOT</version>
+    <version>1.0.6</version>
     <packaging>jar</packaging>
 
     <name>Spring Boot Blank Project (from https://github.com/making/spring-boot-blank)</name>
